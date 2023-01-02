@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(action="/items", method="POST") 
+    p Title 
+    input(type="text", name="title")
+    p Content
+    textarea(name="content", cols="30", rows="10")
+    p Category
+    select(name="category")
+      option(value="To Do") To Do
+      option(value="Studying") Studying
+      option(value="Recipes") Recipes
+      option(value="Finances") Finances
+      option(value="Reading List") Reading List
+      option(value="Notes to Self") Notes To Self
+    p <br/>
+    input(type="submit", name="btn" value="Add")
+  
+  
+   
+
+  

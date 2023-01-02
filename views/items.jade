@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  h2 Items
+  div(class = "item_tile")
+      h3 Title
+      each item in items
+        h3=item.id
+        p= "Title: "
+        p= item.title
+        p= "Content: "  
+        p=item.content
+        p= "Category: " 
+        p=item.category
+        p= "Date Created: " 
+        p=item.date_created 
