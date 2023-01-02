@@ -1,6 +1,6 @@
 # To-Do-List
 
-This Project is has been created as a personal use utility, as well as a show of competence with certain technologies. This app will have CRUD functionality, with the ability to edit and delete items.
+This Project is has been created for personal use, as well as a show of competence with certain technologies. This app will have CRUD functionality, with the ability to edit and delete items.
 
 ## Technologies Used:
 - JavaScript
